@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Goldilocks Philippines</title>
+  <link rel="icon" type="image/jpeg" href="goldilocks.jpg">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #fff4e6;
+      color: #333;
+    }
+
+    header img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+
+    h1, h2 {
+      color: #d35400;
+      text-align: center;
+    }
+
+    section {
+      margin: 40px auto;
+      max-width: 1000px;
+      background-color: #fff8f0;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    }
+
+    .image-row {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .image-row img {
+      width: 280px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin: 10px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    table, th, td {
+      border: 1px solid #ddd;
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #ffb87c;
+      color: white;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #ffb87c;
+      color: white;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      .image-row {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="banner.jpg" alt="Goldilocks Bakery Banner">
+  </header>
+
+  <section>
+    <h1>About Goldilocks Philippines</h1>
+    <p>
+      Goldilocks Bakeshop, Inc. is a leading Filipino bakery and food service company that has become a staple in Filipino celebrations and everyday life.
+    </p>
+  </section>
+
+  <section>
+    <h2>Our Story & Heritage</h2>
+    <p>
+      Founded in 1966 in Makati, Metro Manila, Goldilocks has grown into one of the largest Filipino-owned bakeshop chains known for quality baked goods and food offerings.
+    </p>
+  </section>
+
+  <section>
+    <h2>Our Best Sellers</h2>
+
+    <div class="image-row">
+      <img src="cake.jpg" alt="Celebration Cake">
+      <img src="ensaymada.jpg" alt="Ensaymada">
+      <img src="bread.jpg" alt="Fresh Bread">
+    </div>
+  </section>
+
+  <section>
+    <h2>Menu & Prices</h2>
+
+    <table>
+      <tr>
+        <th>Product</th>
+        <th>Price</th>
+      </tr>
+      <tr><td>Celebration Cakes</td><td>₱850 – ₱2,500</td></tr>
+      <tr><td>Themed Cakes</td><td>₱1,200 – ₱3,500</td></tr>
+      <tr><td>Ensaymada</td><td>₱45 per piece</td></tr>
+      <tr><td>Polvoron (Box of 12)</td><td>₱180</td></tr>
+      <tr><td>Mamon</td><td>₱55 per piece</td></tr>
+      <tr><td>Fresh Bread Loaf</td><td>₱75</td></tr>
+      <tr><td>Pastries</td><td>₱60 – ₱120</td></tr>
+      <tr><td>Savory Meals</td><td>₱120 – ₱250</td></tr>
+      <tr><td>Party Trays</td><td>₱950 – ₱2,800</td></tr>
+    </table>
+
+    <p><em>Prices may vary depending on branch location and customization.</em></p>
+  </section>
+
+  <section>
+    <h2>Our Mission</h2>
+    <p><strong>“To make every day a celebration.”</strong></p>
+  </section>
+
+  <footer>
+    &copy; 2026 Goldilocks Bakeshop, Inc.
+  </footer>
+
+</body>
+</html>
